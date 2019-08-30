@@ -1,13 +1,14 @@
 .main-container {
-  height: 100%;
   width: 100%;
-  border: 20px solid blue;
-}
-
-.blog-container {
-  width: 200px;
-  height: 50px;
+  height: 100%;
   border: 5px solid red;
   margin: 0 auto;
+  text-align: center;
+}
 
+header {
+  width: 5%;
+  border: 2px solid blue;
+  text-align: center;
+  margin: auto 50%;
 }
