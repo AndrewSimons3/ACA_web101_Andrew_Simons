@@ -1,31 +1,36 @@
 .main-container {
   width: 100%;
   height: 100%;
-  border: 5px solid orchid;
-  margin: 0 auto;
-  text-align: center;
+  margin: 5% auto;
 }
 
 header {
+  text-align: center;
   background-color: orange;
   margin: 5% auto;
-  border: solid aqua;
+  border: solid pink 10px;
   width: 25%;
 }
 
-main {
-  background: green
-  width: 10%;
-  margin: 5%;
+body {
+  background-color: aqua;
 }
 
-p {
-  margin: 1%;
-  background-color: teal;
-  border: 5px  solid blue;
+h1:hover {
+    color: blue;
 }
 
+article {
+  margin: 1% auto;
+  border: solid black;
+  width: 60%;
+  background-color:green;
+}
 
+article > h2 {
+  font-size: 1em;
+}
 
-
-
+footer {
+  text-align: center;
+}
