@@ -7,11 +7,6 @@
 blue}
 }
 
-.nav {
+.lower {
   background-color: grey;
-}
-
-@media (min-width: 778px) {
-  .nav {display:none;
-  }
 }
