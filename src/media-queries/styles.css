@@ -10,3 +10,7 @@ blue}
 .lower {
   background-color: grey;
 }
+
+@media (min-width: 768px) {
+  .main-container {color:
+ blue}
