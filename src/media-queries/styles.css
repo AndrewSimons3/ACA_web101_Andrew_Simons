@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+ .main-container {color:
+blue}
+}
+
+.nav {
+  background-color: grey;
+}
+
+@media (min-width: 778px) {
+  .nav {display:none;
+  }
+}
