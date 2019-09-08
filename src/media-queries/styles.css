@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+ .main-container {color:
+blue}
+}
+
+.lower {
+  background-color: grey;
+}
+
+@media (min-width: 768px) {
+  .main-container {color:
+ blue}
