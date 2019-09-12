@@ -17,16 +17,13 @@ body {
   background-color: #4b298c;
 }
 
-.a {
-  
-}
-
 .b{
   
 }
 
 .nav-button {
   background-color: yellow;
+  
 }
 
 h1 {
@@ -40,8 +37,8 @@ h1 {
 }
 
 .h {
-  grid-column: col 4 / span 3;
-  grid-row: row 2 / span 3;
+  grid-column: 4 / span 3;
+  grid-row: 2 / span 3;
   background-image: url("bottomimg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
