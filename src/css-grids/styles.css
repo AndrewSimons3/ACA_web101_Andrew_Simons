@@ -5,46 +5,44 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: purple;
+  background-color: #4b298c;
 }
 
 .grid-container {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 15% repeat(6, 1fr) 15%;
-  grid-template-rows: 25% 25% 25% 1fr;
-  background-color: purple;
+  grid-template-columns: repeat(6, [col] 16.666%);
+  grid-template-rows: repeat(4, [row] auto );
+  background-color: #4b298c;
 }
 
-.top-text {
+.a {
   
 }
 
-.content{
+.b{
   
 }
 
 .nav-button {
   background-color: yellow;
-  grid-column-start: 8;
-  grid-column-end: 9;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 1em;
 }
 
-.fish {
-
+.g {
+  grid-column: col / span 3;
+  grid-row: row 2 / span 3;
 }
 
-.art-image{
- 
-}
-
-.social {
-  grid-column-start: 3;
-  grid-row-start: 4;
+.h {
+  grid-column: col 4 / span 3;
+  grid-row: row 2 / span 3;
+  background-image: url("bottomimg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
