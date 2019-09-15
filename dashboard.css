@@ -1,5 +1,9 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
-  color: darkgrey;
+  background-color: blue;
 }
 main.container {
   display: grid;
@@ -8,6 +12,9 @@ main.container {
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
-.boxa{
+.a{
   color: green;
+  width: 100px;
+  height: 100px;
+
 }
