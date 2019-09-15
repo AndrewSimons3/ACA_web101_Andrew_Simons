@@ -3,18 +3,11 @@ body{
 }
 main.container {
   display: grid;
-  grid-template-columns: 16.667 repeat(5) 1fr;
-  grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-gap: 20px;
+  grid-template-columns: 9.09% repeat(11);
+  grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 .boxa{
-  border: solid black;
-  height: 150px;
-  width: 150;
-}
-
-.boxb{
-  border: solid black;
-  height: 150px;
-  width: 150px;
+  color: green;
 }
