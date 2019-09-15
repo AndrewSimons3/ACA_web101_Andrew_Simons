@@ -1,0 +1,20 @@
+body{
+  color: darkgrey;
+}
+main.container {
+  display: grid;
+  grid-template-columns: 16.667 repeat(5) 1fr;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
+.boxa{
+  border: solid black;
+  height: 150px;
+  width: 150;
+}
+
+.boxb{
+  border: solid black;
+  height: 150px;
+  width: 150px;
+}
