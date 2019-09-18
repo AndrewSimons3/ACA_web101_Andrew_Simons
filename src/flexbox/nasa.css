@@ -1,0 +1,21 @@
+body {
+  width: px;
+  margin: 0 auto;
+}
+
+main{
+  height: px;
+  margin: 0 auto;
+  background-image: url(Nasaimg.jpg);
+  background-color: white;
+}
+
+section{
+  display: flex;
+  height: px;
+}
+article{
+  width: px;
+  height: px;
+  background-color: rgb(224, 222, 222)
+}
