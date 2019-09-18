@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ border: solid black;
+}
+
+.maincontainer {
+    display: grid;
+    grid-template-columns:
+    grid-template-rows: ;
+  }
+}
+
+
+
+.a{
+  border: solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.b{
+
+}
+
+.c{
+
+}
