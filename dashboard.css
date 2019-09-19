@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: grey;
+  height: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  height: 100%;
+
+}
+
+.box {
+  background-color: white;
+}
+
+h1 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 100px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+@media (min-width: 576px) {
+  .wrapper {
+    grid-template-columns: repeat(10 [col] 10%);
+    grid-template-rows: repeat(5, [row] auto);
+  }
+
+  .a{
+    grid-column: col 0 / span 1;
+    grid-row: row;
+
+  }
+  
+  .b {
+    word-spacing: 4em;
+    grid-column: col 1 / span 7;
+    grid-row: row;
+  }
+  
+  .c {
+    grid-column: col 8 / span 2;
+    grid-row: row;
+  }
+  
+  .d {
+    grid-column: span 2;
+    grid-row: row 2 / span 2;
+  }
+  
+  .e {
+    grid-column: col 2 / span 3;
+    grid-row: row 2 / span 2;
+  }
+  
+  .f {
+    grid-column: col 5 / span 3;
+    grid-row: row 2 / span 2;
+  }
+  
+  .g {
+    grid-column: col 8 / span 2;
+    grid-row: row 2 / span 4;
+  }
+  
+  .h {
+    grid-column: span 2;
+    grid-row: row 4 / span 2;
+  }
+  
+  .i {
+    grid-column: col 2 / span 3;
+    grid-row: row 4 / span 2;
+  }
+  
+  .j {
+    grid-column: col 5 / span 3;
+    grid-row: row 4 / span 2;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .sidenav {
+    display:none;
+  }
