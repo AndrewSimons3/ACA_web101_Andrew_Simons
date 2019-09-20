@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box
+}
+
+body{
+  
+}
+
+.wrapper {
+  grid-template-columns: repeat(12 [col] 10%);
+  grid-template-rows: repeat(9, [row] auto);
+}
