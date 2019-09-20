@@ -1,0 +1,33 @@
+body{
+  width:670px;
+  margin: 0 auto;
+}
+
+main{
+  height: 355px;
+  margin: 0 auto;
+  color: white;
+  background-image: url(Nasaimg2.png)
+}
+
+section{
+  display: flex;
+  height: 324px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+article {
+  width: 200px;
+  height: 250px;
+  background-color:grey;
+}
+
+div {
+  font-size: 30px;
+}
+
+p{
+  margin: 0;
+  padding: 3px
+}
