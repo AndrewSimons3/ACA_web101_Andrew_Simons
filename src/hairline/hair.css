@@ -45,30 +45,35 @@
 }
 
 .box-h {
-  grid-column: col 2;
-  grid-row: row 4 / span 1;
+  grid-column: col 3 / span 2;
+  grid-row: row 5;
 }
 
 .box-i {
-  grid-column: col 4;
-  grid-row: row 4 / span 1;
+  grid-column: col 5 / span 2;
+  grid-row: row 5;
 }
 
 .box-j {
-  grid-column: col 6;
-  grid-row: row 4 / span 1;
+  grid-column: col 7 / span 2;
+  grid-row: row 5;
 }
 
 .box-k {
-  grid-column: col 8;
-  grid-row: row 4 / span 1;
+  grid-column: col 9 / span 2;
+  grid-row: row 5;
 }
 
 .box-l {
-  grid-column: col 2 / span 2;
-  grid-row: row 2 / span 3;
+  grid-column: col 3 / span 4;
+  grid-row: row 6 / span 3;
 }
 
 .box-m {
-  grid-column: 
+  grid-column: col 7 / span 4;
+  grid-row: row 6 / span 2;
+}
+
+.box-n {
+  grid-column: col
 }
