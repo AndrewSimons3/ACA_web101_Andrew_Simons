@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 500px;
+}
+
 .wrapper {
   display: grid;
   height: 100%;
@@ -9,6 +13,7 @@
   grid-template-columns: repeat(12, [col] auto);
   grid-template-rows: repeat(9, [row] auto);
   grid-gap: 10px;
+  margin: 0 auto;
 }
 
 ul {
