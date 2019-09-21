@@ -8,20 +8,24 @@
   width: 100%;
   grid-template-columns: repeat(12, [col] auto);
   grid-template-rows: repeat(9, [row] auto);
+  grid-gap: 10px;
 }
   
 .box-a {
-  grid-column: col 3;
+  grid-column: col / span 3;
   grid-row: row 1;
+  background-color: teal;
 }
 
 .box-b {
-  grid-column: col 4 / span 6;
+  grid-column: col 4 / span 9;
+  background-color: teal;
 }
 
 .box-c {
   grid-column: col 3 / span 8;
   grid-row: row 2 / span 2;
+  border: solid teal;
 }
 
 .box-d {
