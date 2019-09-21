@@ -75,5 +75,11 @@
 }
 
 .box-n {
-  grid-column: col
+  grid-column: col 7 / span 4;
+  grid-row: row 8;
+}
+
+.box-o {
+  grid-column: col / span 12;
+  grid-row: 9;
 }
