@@ -135,3 +135,79 @@
   padding: 2rem;
   background: #f1f1f1;
 }
+
+.ex-14 {
+  background:#f1f1f1;
+    padding: 2rem;
+    text-align: center;
+  }
+
+.ex-14 .sup-title{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #888;
+    letter-spacing: 1.3px;
+    margin-bottom: 0;
+  }
+
+.ex-14 .title{
+    color: #222;
+    font-size: 2rem;
+  }
+  
+.ex-14 .desc{
+    margin: 0 auto;
+    max-width: 30rem;
+    color: #666;
+  }
+
+  .ex-19{
+    background: #f1f1f1;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .ex-19 button{
+    border: none;
+    padding: .875rem 2rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .ex-19 .button1{
+    background: transparent;
+    padding: .875rem .25rem;
+    color: #888;
+  }
+  .ex-19 button1:hover{
+    color: #222;
+  }
+
+  .ex-21{
+    background: #f1f1f1;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ex-21 button{
+    border: 2px solid #ccc;
+    padding: .75rem 2.5rem;
+    border-radius: 100rem;
+    background: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .ex-21 button:hover{
+    background: #ccc;
+    color: #222;
+  }
