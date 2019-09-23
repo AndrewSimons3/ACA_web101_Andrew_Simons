@@ -84,3 +84,54 @@
   margin-right: .25rem;
 }
 
+.ex-7{
+  background: #568695;
+  padding: 2rem;
+}
+
+.ex-7 .title{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+
+
+.ex-8{
+  background: #f1f1f1;
+  padding: 2rem;
+}
+
+.ex-8 p{
+  font-size: 1rem;
+}
+
+.ex-8 ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.ex-8 ul div{
+  width: 50%;
+}
+
+.ex-8 ul li{
+  list-style: none;
+  line-height: 2;
+  color: #444;
+  margin-left: -2.325rem;
+}
+
+.ex-8 ul li:before{
+  content: '\f05d';
+  font-family: 'FontAwesome';
+  padding-right: 1rem;
+  font-size: 1.325rem;
+  color: #AE98DB;
+  vertical-align: -2px;
+}
+
+.ex-13{
+  padding: 2rem;
+  background: #f1f1f1;
+}
