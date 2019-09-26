@@ -39,6 +39,10 @@ body{
   margin-right: 20px;
 }
 
+#my-portfolio {
+  margin-right: 10px;
+}
+
 #profile-pic {
   height: 300;
   margin: auto;
