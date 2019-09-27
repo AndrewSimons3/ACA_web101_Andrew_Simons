@@ -1,0 +1,50 @@
+body{
+  background-image: url(./images/devimg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1600px 1200px;
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: #555f77;
+}
+
+#header-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 46px;
+  z-index: 1050;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.06);
+}
+.title {
+  position: relative;
+  font-size: 20px;
+  top: 10px;
+  float: left;
+}
+
+#title-andrew {
+  top: 10px;
+  float: left;
+}
+
+#container-right {
+  position: relative;
+  top: 10px;
+  float: right;
+  word-spacing: 10px;
+}
+
+#a {
+  margin-right: 20px;
+
+}
+
+#my-portfolio {
+  margin-right: 10px;
+}
+
+.content {
+  
+}
