@@ -1,0 +1,119 @@
+
+
+body{
+  background-image: url(./images/Contact.jpg);
+  background-repeat: no-repeat;
+  background-size: 1450px 1000px;
+  color: #555f77;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 46px;
+  z-index: 1050;
+  background-color: #e4dfdf;
+  box-shadow: 0px 2px 10px 0px black;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+a{
+  border-bottom: 4px solid #e4dfdf;
+  text-decoration: none;
+  color: #555f77;
+  transition: border 0.3s;
+  padding-bottom: 22px;
+}
+
+a:hover {
+  border-bottom: 4px solid;
+}
+
+.header-fix {
+  height: 65px;
+}
+
+.title {
+  position: relative;
+  font-size: 20px;
+  top: 10px;
+  float: left;
+}
+
+#container-right {
+  position: relative;
+  top: 13px;
+  float: right;
+  word-spacing: 10px;
+}
+
+.content-title {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.container-a {
+  display: flex;
+  height: 300px;
+  width: 500px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  color: black;
+}
+
+.container-b{
+  display: flex;
+  height: 300px;
+  width: 500px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.form-inner {
+  color: white;
+}
+
+.input-group {
+  margin: 10px;
+}
+
+#message {
+  width: 100%;
+  padding: 60px 70px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  opacity: .25;
+}
+
+#yourname {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  opacity: .25;
+}
+
+#youremail {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  opacity: .25;
+}
+
+
