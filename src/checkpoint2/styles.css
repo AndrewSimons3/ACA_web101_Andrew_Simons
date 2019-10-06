@@ -66,3 +66,31 @@ ul {
   color: white;
 }
 
+.navmenu {
+  width: 100%;
+  background-color: #4e6c49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-primary {
+  padding: 15px 1px 1px !important;
+}
+
+.menu-primary li {
+  display: inline-block;
+  padding-right: 22px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration:none;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
