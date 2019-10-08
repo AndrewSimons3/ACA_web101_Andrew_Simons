@@ -48,11 +48,11 @@ img {
 }
 
 .et-social-icon a {
-display: inline-block;
-position: relative;
-text-align: center;
-text-decoration: none;
-transition: color .3s ease 0s;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color .3s ease 0s;
 }
 
 .et-social-icons li {
