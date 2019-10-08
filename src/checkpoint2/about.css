@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: #4e6c49;
+  font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7em;
+
+}
+
+#page-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  background-color: white;
+}
+
+#top-header {
+  background-color: #4e6c49;
+  line-height: 1em;
+  z-index: 100000;
+  color: #fff;
+  font-size: 12px;
+}
+
+#main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+}
+
+.et-social-icon a {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color .3s ease 0s;
+}
+
+.et-social-icons li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.icon {
+  background: #3B5998;
+  color: white;
+}
+
+.icon2 {
+  background: #55ACEE;
+  color: white;
+}
+
+.navmenu {
+  width: 100%;
+  background-color: #4e6c49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.hamburger{
+  display:none;
+  margin-right: 2%;
+  color: white;
+}
+
+.menu-primary li {
+  display: inline-block;
+  padding-right: 22px;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration:none;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.text-content {
+  margin: 90px;
+}
+
+strong{
+  display:block;
+}
+
+.divider{
+  width: 95%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #4e6c49;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.hamburger i{
+  font-size: 40px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 923px) {
+  .hamburger {
+    display: block;
+    position: relative;
+  }
+
+  .menu-primary {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color: #4e6c49;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .navmenu.clicked .menu-primary {
+    display: block;
+  }
+
+  .navmenu.clicked .menu-primary li{
+    display: block;
+    margin: 2%;
+    padding: 1%;
+  }
+
+  .navmenu {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
