@@ -120,6 +120,66 @@ a {
   font-size: 40px;
 }
 
+.section2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.news {
+  width: 31.333%;
+}
+
+.rates {
+  width: 31.333%;
+}
+
+.connect {
+  width: 31.333%;
+}
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color:#4e6c49;
+  height:209px;
+}
+
+.connect-with-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+span{
+  color: white;
+}
+
+.buttonwrapper{
+  margin-top: 20px;
+}
+
+.contact-us-button{
+  display: inline-block;
+  padding: .3em 1em;
+  border: 2px solid;
+  border-radius: 3px;
+  line-height: 1.7em!important;
+  transition: all .2s;
+  color: white;
+}
+
+
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 923px) {
