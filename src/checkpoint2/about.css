@@ -174,7 +174,7 @@ span{
   margin-top: 20px;
 }
 
-.contact-us-button{
+.contact-us-button {
   display: inline-block;
   padding: .3em 1em;
   border: 2px solid;
@@ -185,16 +185,14 @@ span{
 }
 
 .main-footer {
-  margin: 5%;
-}
+  background-color: #222;
+  }
 
 .widget-container {
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
-
-
 
 
 

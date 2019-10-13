@@ -59,7 +59,7 @@ img {
   display: inline-block;
 }
 
-ul {
+.ul {
   list-style: none;
   display: inline-block;
 }
@@ -139,6 +139,35 @@ input[type=submit]:hover {
   background-color: #222;
 }
 
+.main-footer {
+  background-color: #222;
+  }
+
+.widget-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-widget h4 {
+  color: #2ea3f2;
+  font-size: 20px;
+}
+
+.footer-widget p {
+  color: white;
+}
+
+.footer-widget a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer-bottom {
+  padding: 1px 0 5px;
+  background-color: rgba(0,0,0,.32);
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -173,3 +202,7 @@ input[type=submit]:hover {
     flex-direction: column;
     align-items: flex-end;
 }
+
+  .main-footer {
+    font-size: 10px;
+  }
