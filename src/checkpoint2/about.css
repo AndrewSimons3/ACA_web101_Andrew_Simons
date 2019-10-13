@@ -184,15 +184,17 @@ span{
   color: white;
 }
 
-#main-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 331.55px;
-  width: 100%;
-  margin: auto;
-  background-color: #222;
+.main-footer {
+  margin: 5%;
 }
+
+.widget-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 
 
