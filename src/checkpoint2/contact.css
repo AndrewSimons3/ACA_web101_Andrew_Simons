@@ -88,7 +88,7 @@ img {
   font-size: 20px;
 }
 
-.hamburger{
+.hamburger a{
   display:none;
   margin-right: 2%;
   color: white;
@@ -139,9 +139,19 @@ input[type=submit]:hover {
   justify-content: space-around;
 }
 
+.main-footer {
+  background-color: #222;
+  }
+
+.widget-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .footer-widget h4 {
   color: #2ea3f2;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footer-widget p {
@@ -149,15 +159,13 @@ input[type=submit]:hover {
 }
 
 .footer-widget a {
-  text-decoration: none;
   color: white;
+  font-size: 15px;
 }
 
-#footer-bottom {
-  padding: 1px 0 5px;
-  background-color: rgba(0,0,0,.32);
+a{
+  text-decoration: none;
 }
-
 
 /*MEDIA QUERIES*/
 
@@ -194,5 +202,10 @@ input[type=submit]:hover {
 }
 
   .main-footer {
+    font-size: 10px;
+  }
+
+  .footer-widget a {
+    color: white;
     font-size: 10px;
   }
