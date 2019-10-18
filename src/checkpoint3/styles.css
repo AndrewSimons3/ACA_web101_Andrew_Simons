@@ -55,7 +55,7 @@ body {
 }
 
 .form-container {
-  margin: 4%;
+  margin: 5%;
   background-image: url(./images/slack-rightside.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -96,6 +96,77 @@ h2{
 .btn-lg:hover {
   border: solid #611f69 2px;
 }
+
+.demo-page {
+  margin: 5%;
+}
+
+.integrate {
+  margin-top: 50px;
+}
+
+.for-desktop-only {
+  font-size: 10px;
+}
+
+.integration_logo_container img {
+  height: 40px;
+  width: 40px;
+}
+
+.find {
+  margin-top: 50px;
+}
+
+.contact-sales {
+  background-image: url(/80588/spacesuit/source/images/backgrounds/bg-halftone-black-20p.png);
+  background-size: 1300px 700px;
+  background-repeat: repeat;
+  background-color: #4a154b;
+  display: flex;
+  align-items: center;
+  height: 376px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.contact-sales .btn-lg {
+  height: 57px;
+  width: 450px;
+  background-color: white;
+  color: #4a154b;
+  border: solid #4a154b 1px;
+  margin-bottom: 25px;
+  margin-top: -10px;
+}
+
+.btn-secondary.btn-lg{
+ background-color: #4a154b;
+ color: white;
+ border: solid white 1px;
+ width: 450px;
+ height: 57px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.navlist{
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 
 
