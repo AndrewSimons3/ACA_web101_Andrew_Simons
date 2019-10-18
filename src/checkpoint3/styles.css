@@ -16,12 +16,16 @@ body {
   box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
+.btn-sm:hover {
+  color: #611f69
+}
+
 
 .btn-outline-success {
   color: white;
-  background-color: #611f69;;
+  background-color: #611f69;
   background-image: none;
-  border-color: #611f69;;
+  border-color: #611f69;
 }
 
 .btn-outline-success:hover {
@@ -167,7 +171,36 @@ h3 {
   align-items: center;
 }
 
+/*MEDIA QUERIES*/
 
+@media (max-width: 600px) {
 
+  body {
+  margin: auto:
+  } 
+  .form-inline {
+    display: none;
+  }
+  .form-container {
+    margin:auto;
+  }
+  img {
+    max-width: 375px;
+  }
+  .video-page {
+    margin: auto;
+  }
+  .btn-lg {
+    max-width: 300px;
+  }
 
+  .footer-container {
+    max-width: 275px;
+  }
+}
+
+@media (max-width: 900px) {
+  
+  }
+}
 
